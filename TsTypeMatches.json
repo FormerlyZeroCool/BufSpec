@@ -1,0 +1,88 @@
+{
+    "object_wrapper_name":"Event",
+    "object_wrapper_declaration":[
+        {"type":"boiler","data":"const "},
+        {"type":"variable_name"},
+        {"type":"boiler","data":":"},
+        {"type":"object_wrapper_name"},
+        {"type":"boiler","data":" = new "},
+        {"type":"object_wrapper_name"},
+        {"type":"boiler","data":"();\n"}
+    ],
+    "raw_type":"UInt8Array",
+    "raw_variable_name":"raw",
+    "raw_type_instantiation":
+    [
+        {"type":"boiler","data":"const "},
+        {"type":"variable_name"},
+        {"type":"boiler", "data":":"},
+        {"type":"raw_type"},
+        {"type":"boiler","data":" = new "},
+        {"type":"raw_type"},
+        {"type":"boiler","data":"("},
+        {"type":"raw_byte_size"},
+        {"type":"boiler","data":");"}
+    ],
+    "struct_opening_wrapper":"export interface $object_wrapper_name {",
+    "struct_closing_wrapper":"};\n",
+    "struct_field_separator":";",
+    "type_var_delimiter":":",
+    "function_template":
+    [
+        {"type":"boiler","data":"export function"},
+        {"type":"function_name"},
+        {"type":"boiler", "data":"("},
+        {"type":"param"},
+        {"type":"boiler", "data":")"},
+        {"type":"boiler","data":":"},
+        {"type":"return_type"},
+        {"type":"boiler","data":" {"},
+        {"type":"body"},
+        {"type":"boiler","data":"}\n"}
+    ],
+    "declarationTemplate":
+    [
+        {"type":"variable_name"},
+        {"type":"boiler","data":":"},
+        {"type":"type"}
+    ],
+    "propertyAccessAsNumber":[
+        {"type":"boiler","data":"(+"},
+        {"type":"variable_name"},
+        {"type":"boiler", "data":"."},
+        {"type":"property_name"},
+        {"type":"boiler","data":")"}
+    ],
+    "propertyAccess":[
+        {"type":"variable_name"},
+        {"type":"boiler", "data":"."},
+        {"type":"property_name"}
+    ],
+    "operators": {
+    "bitshift_left":"<<",
+    "bitshift_right":">>",
+    "bitwise_and":"&",
+    "bitwise_or":"|",
+    "bitwise_or_and_assign_left":"|=",
+    "left_assignment":"=",
+    "array_accessor":[
+        {"type":"data_structure"},
+        {"type":"boiler", "data":"["},
+        {"type":"index"},
+        {"type":"boiler", "data":"]"}
+    ]
+    },
+    "types_map": {
+        "bool":"boolean",
+        "int8":"number",
+        "int16":"number",
+        "int32":"number",
+        "double":"number",
+        "bool_array":"number[]",
+        "int8_array":"number[]",
+        "int16_array":"number[]",
+        "int32_array":"number[]",
+        "raw_byte_array":"UInt8Array",
+        "object_wrapper_name":"Event"
+    }
+}

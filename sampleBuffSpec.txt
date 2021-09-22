@@ -1,0 +1,6 @@
+bool:admin
+bool:test
+bool:test1
+int8:byte
+int16:word
+int16:wordddd
